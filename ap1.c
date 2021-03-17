@@ -12,11 +12,13 @@ int main(){
 
     *plist[0] = 200;
 
+    printf("[----- [한민우] [2018038047] -----]\n");
+
     // 배열의 이름은 배열의 첫 주소값(맨 앞 원소의 주소)을 의미한다
     printf("value of list[0]        = %d\n", list[0]);         // list[0]에 들어있는 데이터 값
-    printf("adress of list[0]       = %p\n", &list[0]); // list[0]의 주소
+    printf("address of list[0]       = %p\n", &list[0]); // list[0]의 주소
     printf("value of list           = %p\n", list);     // 배열 list의 주소
-    printf("adress of list (&list)  = %p\n", &list);    // 배열 list의 주소
+    printf("address of list (&list)  = %p\n", &list);    // 배열 list의 주소
 
 
     printf("-------------------------------------\n\n");
@@ -24,7 +26,7 @@ int main(){
     지금의 경우는 배열의 자료형이 int이므로 자료형 크기가 4이기 때문에
     list와 list +1 한 주소 값이 4만큼 차이난다 */
     printf("value of list[1]   = %d\n", list[1]);       // list[1]에 들어있는 데이터 값
-    printf("adress of list[1]  = %p\n", &list[1]);      // list[1]의 주소
+    printf("address of list[1]  = %p\n", &list[1]);      // list[1]의 주소
     printf("value of *(list+1) = %d\n", *(list + 1));   // list + 1의 주소를 참조한 값
     printf("address of list+1  = %p\n", list+1);        // list + 1의 주소
 
