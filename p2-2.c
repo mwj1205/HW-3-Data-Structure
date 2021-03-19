@@ -5,6 +5,8 @@ void print1 (int *ptr, int rows);
 int main(){
     int one[] = {0,1,2,3,4};
 
+    printf("[----- [한민우] [2018038047] -----]\n");
+
     /* 배열의 이름은 배열의 첫번째 원소의 주소값을 가리키는 포인터이다. */
     printf("one     = %p\n", one);
     printf("&one    = %p\n", &one);

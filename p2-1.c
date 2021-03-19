@@ -7,6 +7,9 @@ float input[MAX_SIZE], answer;
 int i;
 
 void main(void){
+    
+    printf("[----- [한민우] [2018038047] -----]\n");
+
     for(i=0; i < MAX_SIZE; i++) // 배열에 0~99 입력
         input[i] = i;
 
