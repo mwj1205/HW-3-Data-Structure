@@ -23,5 +23,5 @@ int main(){
     printf("address of list[4] \t= %p\n",&list[4]);           // list [4]의 주소 값
     /* 배열 자료형이 int이기 때문에 주소값이 4씩 차이난다 */
 
-    free(plist[0]);                         // 할당 해제    
+    free(plist[0]);                             // 할당 해제    
 }
